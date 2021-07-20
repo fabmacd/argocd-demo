@@ -27,3 +27,7 @@ spec:
       - image: nginx:alpine
         imagePullPolicy: IfNotPresent
         name: nginx-alpine
+        resources:
+          requests:
+            cpy: 50m
+            memory: 256Mi
