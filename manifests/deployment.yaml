@@ -29,5 +29,5 @@ spec:
         name: nginx-alpine
         resources:
           requests:
-            cpy: 50m
+            cpu: 50m
             memory: 256Mi
